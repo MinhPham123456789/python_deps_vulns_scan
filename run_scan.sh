@@ -21,4 +21,4 @@ report_deep_path="${report_path}/${today_report_path}/${time_report}"
 # Generate the report
 report_name="${time_report}_report.txt"
 echo "Saving to ${report_path}/${today_report_path}/${report_name}"
-./python_deps_vulns_scan.sh $report_deep_path | tee ${report_deep_path}/${report_name}
+./python_deps_vulns_scan.sh $report_deep_path |& tee ${report_deep_path}/${report_name}

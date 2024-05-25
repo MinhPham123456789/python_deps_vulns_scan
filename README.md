@@ -11,6 +11,13 @@ pip install -r requirements.txt
 safety generate policy_file
 ```
 
+## Usage
++ Open a terminal and make sure it is not in any python venv environment
+    + In case, it is has a python venv env activated, run `deactivate`
++ Go into the repository and give execute permission to `run_scan.sh` and `python_deps_vulns_scan.sh`
++ Run `run_scan.sh`
++ The result is in the `reports` directory
+
 ## How the script uses the tools
 + safety commands
     + `safety scan`
