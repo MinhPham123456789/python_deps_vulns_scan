@@ -5,8 +5,8 @@ This tool currently implemented for native python environment and the python vir
 
 ## Installation
 ```
-git clone
-cd 
+git clone https://github.com/MinhPham123456789/python_deps_vulns_scan.git
+cd python_deps_vulns_scan
 pip install -r requirements.txt
 safety generate policy_file
 ```
